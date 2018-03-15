@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto';
+    font-size: 18px;
+    background-color: #745cc1;
+}
+
+.logo img{
+    width: 95px;
+    height: 99px;
+    margin-left: 141px;
+    margin-top: 65px;
+}
+
+.dados input{
+    margin-left: 65px; 
+    width: 247px;
+    background: none;
+    border-color: transparent;
+    border-bottom: thin solid white;
+    color: white;
+}
+.dados input::-webkit-input-placeholder {
+   color: white;
+    font-weight: lighter
+}
+.dados .email{
+    margin-top: 78px;
+}
+.dados .senha{
+    margin-top: 59px;
+}
+
+.dados button{
+    width: 247px;
+    height: 50px;
+    margin-left: 64px;
+    margin-top: 59px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #39393a;    
+    border: transparent;
+    box-shadow: 0px 2px 3px 0px;
+}
+
+.link a{
+    margin-left: 121px;  
+    margin-top: 6px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration-line: none;
+    text-shadow: black 0em 0.1em 0.1em
+}
