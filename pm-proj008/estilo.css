@@ -113,7 +113,79 @@ section#principal .modulo .container{
 
 section#principal .modulo .container .canvas{
     background-color: #fff;
-    height: 300px;
     border: 1px solid #e6e6e6;
     border-radius: 4px;
+    padding: 20px;
+}
+
+form ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+form li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+form h2{
+    font-size: 20px;
+    color: #161616;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+form input, form select{
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+form small{
+    display: block;
+    width: 400px;
+    margin-top: 5px;
+}
+
+form select{
+    color: #c5c5c5;
+}
+
+::-webkit-input-placeholder{
+    color: #c5c5c5;
+}
+
+form li.ok{
+    background-image: url(images/ok.png);
+    background-repeat: no-repeat;
+    background-position: top 10px right;
+    width: 430px;
+}
+
+form button{
+    width: 400px;
+    height: 40px;
+    background-color: #3aca60;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.confirmacoes li{
+    font-size: 14px;
+    display: flex;
+    width: 400px;
+}
+
+.confirmacoes input{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
