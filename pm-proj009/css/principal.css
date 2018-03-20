@@ -1,0 +1,37 @@
+@import url(header.css);
+@import url(cartao.css);
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Altura para centralizar totalmente o html*/
+    height: 100%;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'muliregular';
+    font-size: 12px;
+}
+
+h1, h2, h3, ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.checkout{
+    width: 688px;
+    height: 558px;
+    background-color: #fff;
+}
+
+
+.checkout main{
+    display: flex;
+}
+
+.checkout main .resumos{
+    height: 100px;
+    width: 45%;
+}
+
